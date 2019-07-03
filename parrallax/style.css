@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    min-height: 100vh;
+    background: linear-gradient(210deg, rgb(218, 76, 76),rgb(136, 26, 26));
+    position: relative;
+    z-index: -1;
+}
+.headertext{
+position: absolute;
+top: 50%;
+left: 10%;
+transform: translate(-10%,-50%);
+color: aliceblue;
+font-size: 30px;
+}
+.tshirt{
+height: 450px;
+position: absolute;
+top: 30%;
+right:9%;
+transform: translate(-9%,-30%);
+z-index: 2;
+
+}
+.tshirt1{
+    height: 200px;
+    position: absolute;
+    top: 10%;
+    right:32%;
+    transform: translate(-32%,-10%); 
+}
+.tshirt2{
+    height: 300px;
+    position: absolute;
+    top: 60%;
+    right:42%;
+    transform: translate(-42%,-60%); 
+}
+.tshirt3{
+    height: 80px;
+    position: absolute;
+    top: 3%;
+    right:60%;
+    transform: translate(-60%,-3%); 
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    background: linear-gradient(50deg ,#123 ,
+    #464646);
+}
+section span{
+    color: aqua;
+    font-size: 60px;
+}
+.logo span{
+    color: rgb(190, 53, 231);
+    font-size: 25px;
+}
+.logo{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
